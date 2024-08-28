@@ -1,0 +1,41 @@
+@import '../../styles/variables.scss';
+
+.main__404 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 20px;
+    
+    .title__404 {
+        font-size: 288px;
+        font-weight: 700;
+        color: $primary-color;
+    }
+
+    .text__404 {
+        font-size: 36px;
+        color: $primary-color;
+        text-align: center;
+    }
+
+    .link__404 {
+        font-size: 18px;
+        color: $secondary-color;
+        text-align: center;
+    }
+}
+
+@media (max-width: 768px) {
+    .main__404 .title__404 {
+        font-size: 96px;
+    }
+
+    .main__404 .text__404 {
+        font-size: 18px;
+    }
+
+    .main__404 .link__404 {
+        font-size: 14px;
+    }
+}

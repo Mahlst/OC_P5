@@ -8,3 +8,16 @@
 body {
     font-family: $font-stack;
 }
+
+#root {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    gap: 50px;
+}
+
+main {
+    flex: 1;
+    max-width: 1240px;
+}

@@ -2,22 +2,23 @@
 
 .header {
     max-width: 1240px;
-    margin: auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 50px;
-    padding: 0 20px;
+    margin: 45px auto 0 auto;
+    width: 100%;
 }
 
 .logo {
     width: 211px;
     height: auto;
+    margin-left: 20px;
 }
 
 .nav {
     display: flex;
     gap: 57px;
+    margin-right: 20px;
 
     .nav__link {
         text-decoration: none;
@@ -31,6 +32,10 @@
 }
 
 @media (max-width: 768px) {
+    .header {
+        margin-top: 25px;
+    }
+
     .logo {
         width: 145px;
         height: auto;
