@@ -1,0 +1,29 @@
+@import '../../styles/variables.scss';
+
+.footer {
+    background-color: $secondary-color;
+    height: 209px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 28px;
+    
+
+    .footer__logo {
+        width: 122px;
+        height: auto;
+    }
+
+    .footer__copyright {
+        color: $tertiary-color;
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 768px) {
+
+    .footer .footer__copyright {
+        font-size: 12px;
+    }
+}

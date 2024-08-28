@@ -1,0 +1,46 @@
+@import '../../styles/variables.scss';
+
+.header {
+    max-width: 1240px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 50px;
+    padding: 0 20px;
+}
+
+.logo {
+    width: 211px;
+    height: auto;
+}
+
+.nav {
+    display: flex;
+    gap: 57px;
+
+    .nav__link {
+        text-decoration: none;
+        color: $secondary-color;
+        font-size: 24px;
+    }
+
+    .nav__link--active {
+        text-decoration: underline;
+    }
+}
+
+@media (max-width: 768px) {
+    .logo {
+        width: 145px;
+        height: auto;
+    }
+
+    .nav {
+        gap: 26px;
+    }
+
+    .nav .nav__link {
+        font-size: 12px;
+    }
+}
