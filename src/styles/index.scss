@@ -20,4 +20,11 @@ body {
 main {
     flex: 1;
     max-width: 1240px;
+    width: 100%;
+}
+
+@media (max-width: 768px) {
+    #root {
+        gap: 25px;
+    }
 }

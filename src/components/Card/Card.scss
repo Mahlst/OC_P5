@@ -1,0 +1,38 @@
+@import '../../styles/variables.scss';
+
+.home__card {
+        height: 340px;
+        width: 340px;
+
+    .home__card__link {
+        position: relative;
+        display: flex;
+        width: 100%;
+        height: 100%;
+    }
+
+    .home__card__img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 10px;
+        background-color: $primary-color;
+    }
+
+    .home__card__title {
+        position: absolute;
+        align-self: flex-end;
+        padding: 20px;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 25px;
+        color: $tertiary-color;
+    }
+}
+
+@media (max-width: 768px) {
+    .home__card {
+        height: 255px;
+        width: 100%;
+    }
+}
