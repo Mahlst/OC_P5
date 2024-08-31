@@ -1,12 +1,14 @@
 @import '../../styles/variables.scss';
 
 .header {
-    max-width: 1240px;
+    max-width: 1260px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 45px auto 0 auto;
+    margin-top: 45px;
     width: 100%;
+    
+    
 }
 
 .logo {

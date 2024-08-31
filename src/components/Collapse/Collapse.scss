@@ -1,9 +1,8 @@
 @import '../../styles/variables.scss';
 
 .collapse {
-    max-width: 82%;
-    margin: 30px auto;
-    }
+    margin: auto;
+  } 
   
   .collapse__title {
     display: flex;
@@ -52,11 +51,3 @@
     background-color: rgba(246, 246, 246, 0.45);
     transition: height 0.3s ease, opacity 0.3s ease, padding 0.3s ease;
   }
-  
-
-  @media (max-width: 768px) {
-
-    .collapse {
-        max-width: 94%;
-    }
-}

@@ -1,0 +1,17 @@
+@import '../../styles/variables.scss';
+
+.about__section {
+    max-width: 82%;
+    margin: 0 20px;
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+@media (max-width: 768px) {
+
+    .about__section {
+        max-width: 100%;
+    }
+}
