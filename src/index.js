@@ -10,6 +10,7 @@ import './styles/index.scss'
 import Home from './pages/Home';
 import About from './pages/About';
 import Error from './pages/Error';
+import Housing from './pages/Housing';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -17,6 +18,7 @@ root.render(
     <Router>
       <Routes>
         <Route path='/' element={<Home />} />
+        <Route path='/housing/:id' element={<Housing />} />
         <Route path='/about' element={<About />} />
         <Route path='*' element={<Error />} />
       </Routes>
