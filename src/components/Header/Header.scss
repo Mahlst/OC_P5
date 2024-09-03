@@ -24,10 +24,10 @@
         text-decoration: none;
         color: $secondary-color;
         font-size: 24px;
-    }
 
-    .nav__link--active {
-        text-decoration: underline;
+        &:hover {
+            text-decoration: underline;
+        }
     }
 }
 
