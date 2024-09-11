@@ -28,6 +28,10 @@
         &:hover {
             text-decoration: underline;
         }
+
+        &.active {
+            text-decoration: underline;
+        }
     }
 }
 
@@ -47,5 +51,6 @@
 
     .nav .nav__link {
         font-size: 12px;
+        text-transform: uppercase;
     }
 }
